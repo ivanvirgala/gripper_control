@@ -61,4 +61,5 @@ Use a 3V3-compatible transceiver with Raspberry Pi.
 Disable the serial console before using /dev/ttyAMA0.
 
 🧾 License
+
 MIT License
