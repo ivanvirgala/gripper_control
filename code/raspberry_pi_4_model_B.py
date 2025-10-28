@@ -1,5 +1,5 @@
 # MightyZap 12Lf-55F-27 (RS-485, IR protocol) – Arduino Mega
-# HW: RS-485 transceiver, DE+RE spoj na pin 2, Serial1 (TX1=18, RX1=19), 57600 8N1
+# HW: RS-485 transceiver, DE+RE con. to pin 2, Serial1 (TX1=18, RX1=19), 57600 8N1
 
 import sys, serial, time, RPi.GPIO as GPIO
 
