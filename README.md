@@ -1,6 +1,6 @@
 # Drive Control – MightyZap RS-485 Gripper
 
-Minimal example for controlling a **MightyZap 12Lf-55F-27** gripper via **RS-485** from **Arduino Mega** or **Raspberry Pi 4**.
+Example for controlling a **MightyZap 12Lf-55F-27** servo via **RS-485** from **Arduino Mega** or **Raspberry Pi 4**.
 
 ⚙️ **Files**  
 ├── arduino_mega.ino    # Arduino Mega sketch (RS-485 via Serial1)  
