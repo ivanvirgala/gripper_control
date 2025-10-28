@@ -3,8 +3,6 @@
 Example for controlling a **MightyZap 12Lf-55F-27** servo via **RS-485** from **Arduino Mega** or **Raspberry Pi 4**.
 
 ⚙️ **Files**  
-├── arduino_mega.ino    # Arduino Mega sketch (RS-485 via Serial1)  
-└── raspberry_pi_4_model_B.py  # Raspberry Pi script (UART0 + GPIO17)
 ```text
 
 gripper_control/
