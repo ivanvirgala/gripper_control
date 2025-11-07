@@ -35,6 +35,7 @@ Baud: `57600 8N1` · Device ID: `0x00` · Header: `0xFF 0xFF 0xFF`
 └────────────────┘       └──────────────────┘       └────────────────────┘
 ```
 🔌 **Wiring** 
+
 **SPI ADC → Raspberry Pi 4**
 
 | ADC Pin | Raspberry Pi 4 Pin | Function |
@@ -53,6 +54,8 @@ Both analog and logic VIN must be 3.3 V. All grounds must be common with the Ras
 ```bash
 sudo apt install python3-pip
 pip3 install pyserial RPi.GPIO
+sudo raspi-config           # Interface Options → SPI → Enable
+pip3 install spidev
 python3 raspberry_pi_4_model_B.py true   # open
 python3 raspberry_pi_4_model_B.py false  # close
 ```
