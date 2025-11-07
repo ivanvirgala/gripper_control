@@ -34,7 +34,19 @@ Baud: `57600 8N1` · Device ID: `0x00` · Header: `0xFF 0xFF 0xFF`
 │ (GPIO14/15/17) │◀──────│ (DI/RO, DE/RE)   │◀────  │ (A/B Differential) │
 └────────────────┘       └──────────────────┘       └────────────────────┘
 ```
+🔌 **Wiring** 
+** SPI ADC → Raspberry Pi 4**
 
+| ADC Pin | Raspberry Pi 4 Pin | Function |
+|----------|--------------------|-----------|
+| VIN (3V3) | 1 / 17 | Power 3.3 V |
+| GND | 6 | Ground (shared) |
+| SCK | 23 (GPIO 11) | SPI Clock |
+| DIN | 19 (GPIO 10) | MOSI |
+| DOUT | 21 (GPIO 9) | MISO |
+| CS | 24 (GPIO 8 / CE0) | Chip Select |
+
+Both analog and logic VIN must be 3.3 V. All grounds must be common with the Raspberry Pi.
 
 🚀 **Quick Start**  
 **Raspberry Pi:**  
